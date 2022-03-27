@@ -5,7 +5,7 @@ async function bootstrap(): Promise<void> {
   const PORT = 5000;
   const app = await NestFactory.create(AppModule);
   await app.listen(PORT, () => {
-    console.log(`Server is tarting on PORT ${PORT}`)
+    console.log(`Server is tarting on PORT ${PORT}`);
   });
 }
 
